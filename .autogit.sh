@@ -4,5 +4,5 @@ do
     echo 'backup start'
     ./.snapshot-subroutine.sh
     echo 'backup created'
-    sleep 3
+    sleep 86400
 done
