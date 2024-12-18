@@ -2,4 +2,4 @@ backup/
 .autogit.sh
 .snapshot-subroutine.sh
 .gitignore.example
-
+tasks.json.example
