@@ -1,7 +1,8 @@
+
 backup/
 .autogit.sh
 .snapshot-subroutine.sh
 .gitignore.example
-tasks.json.example
+tasks.example.json
 autogit-master/
 load-autogit.sh
