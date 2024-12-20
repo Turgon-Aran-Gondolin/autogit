@@ -9,7 +9,8 @@ fi
 wget https://github.com/Turgon-Aran-Gondolin/autogit/archive/refs/heads/master.zip
 unzip master.zip
 rm master.zip
-mv autogit-master/.* ./
+mv autogit-master/* ./
+rm autogit-master -r
 
 sed -i "s/^BRANCH=.*$/BRANCH=$BACKUP/" .snapshot-subroutine.sh
 git branch $BACKUP master
