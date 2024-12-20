@@ -4,3 +4,4 @@ backup/
 .gitignore.example
 tasks.json.example
 autogit-master/
+load-autogit.sh
