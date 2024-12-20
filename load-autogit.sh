@@ -11,6 +11,7 @@ wget https://github.com/Turgon-Aran-Gondolin/autogit/archive/refs/heads/master.z
 unzip master.zip
 rm master.zip
 rm autogit-master/load-autogit.sh
+rm autogit-master/README*
 mv autogit-master/* ./
 mv autogit-master/.* ./
 rm autogit-master -r
