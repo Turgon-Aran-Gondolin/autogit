@@ -9,7 +9,7 @@
         {
             "label": "Run git repo backup upon opening",
             "type": "shell",
-            "command": "cd ${workspaceFolder} && cd $(git rev-parse --show-toplevel) && ./backup.sh",
+            "command": "cd ${workspaceFolder} && cd $(git rev-parse --show-toplevel) && ./.autogit.sh",
             "windows": {
                 "command": "bash -c \"cd $(wslpath '${workspaceFolder}') && cd $(git rev-parse --show-toplevel) && ./.autogit.sh \"",
                 "shell": {
